@@ -59,7 +59,7 @@ exports.welcome = () =>{
 exports.leave = () =>{
 	return`
 │
-╰─ ᝬ _Balik Lagi Wajib Donasi Ya_ >_<`
+╰─ ᝬ _Balik Lagi Shion kick_ >_<`
 }
 exports.menu = (prefix, salam, pushname) =>{
 	return`Hi ${pushname}, selamat ${salam}
