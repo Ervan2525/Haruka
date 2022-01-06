@@ -99,7 +99,7 @@ const salam = moment(Date.now()).tz('Asia/Jakarta').locale('id').format('a')
 					whitespaceBreak: false
 					}), 'skyblue'))
 				haruka.on('qr', () => {
-					console.log(color('[','white'), color('!','red'), color(']','white'), color('SCAN QR MASK 15 SECONDS, AND SUBSCRIBE YOUTUBE ZEEONE OFC'))
+					console.log(color('[','white'), color('!','red'), color(']','white'), color('SCAN QR MASK 15 SECONDS, AND DONT SPAM SHION'))
 					})
 			fs.existsSync(`./settings/${session_name}`) && haruka.loadAuthInfo(`./settings/${session_name}`)
 			haruka.on('connecting', () => {
