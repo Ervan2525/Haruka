@@ -67,7 +67,7 @@ exports.menu = (prefix, salam, pushname) =>{
 ╭─⬣ *Menu Shion*
 │ • ${prefix}menu
 │ • ${prefix}help
-│ • ${prefix}haruka
+│ • ${prefix}shion
 │
 ├ *Download*
 │ • ${prefix}play [query]
