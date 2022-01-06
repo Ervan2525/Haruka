@@ -23,11 +23,11 @@ exports.daftar = (sender, pushname, time, serialUser, totalUser) =>{
 • Total User : ${totalUser.length}
 
 Thanks yak udah daftar, sekarang ketik .menu untuk melihat 
-fitur bot.
+fitur Shion.
 `
 	}
 exports.owner = (botname) =>{
-	return` 🙅‍♀️ Command khusus owner ${botname}`
+	return` 🙅‍♀️ Command khusus tuan Rimuru ${botname}`
 	}
 exports.admin = (groupName) =>{
 	return`🙅‍♀️ Command khusus admin ${groupName}`
@@ -64,7 +64,7 @@ exports.leave = () =>{
 exports.menu = (prefix, salam, pushname) =>{
 	return`Hi ${pushname}, selamat ${salam}
 
-╭─⬣ *List Menu*
+╭─⬣ *Menu Shion*
 │ • ${prefix}menu
 │ • ${prefix}help
 │ • ${prefix}haruka
